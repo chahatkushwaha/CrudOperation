@@ -12,7 +12,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 // adding annotation for our database entities and db version.
 @Database(entities = {CourseModal.class}, version = 1)
 public abstract class CourseDatabase extends RoomDatabase {
-
+int a;
     // below line is to create instance
     // for our database class.
     private static CourseDatabase instance;
